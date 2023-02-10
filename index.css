@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.grid{
+    position: relative;
+    width: 560px;
+    height: 300px;
+    border: 1px solid black;
+    margin-top:  80px;
+}
+.block{
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;  
+}
+.user{
+    width: 100px;
+    height: 20px;
+    background-color: purple;
+    position: absolute;  
+}
+.ball{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+}
+#start-btn{
+    margin-top: 30px;
+    border: none;
+    padding: 5px 10px;
+    height: 40px;
+    background: red;
+    color: white;
+
+}
